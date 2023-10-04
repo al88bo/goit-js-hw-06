@@ -14,6 +14,6 @@ const images = [
 ];
 const placeTag = document.querySelector('ul.gallery');
 const strGalleryElements = images
-  .map(({ url, alt }) => `<li class='item'><img src='${url}' alt='${alt}' width='300' /></li>`)
+  .map(({ url, alt }) => `<li class='item-task3'><img src='${url}' alt='${alt}' width='300' /></li>`)
   .join('');
 placeTag.insertAdjacentHTML('afterbegin', strGalleryElements);
